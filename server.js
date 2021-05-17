@@ -15,7 +15,7 @@ let sessaoAtual = {
    evento: "",
    status: "",
    espaco: "ORDEM DO DIA",
-   projeto: ""
+   projeto: "" 
 };
 
 io.on('connection', socket => {
